@@ -1,0 +1,18 @@
+-- This query calculates the percentage of constructors by nationality and orders them by total count.
+
+SELECT Nationality,
+	COUNT(nationality) AS TotalNumber,
+	CAST(COUNT(Nationality) * 100.0 / SUM(COUNT(Nationality)) OVER () AS DECIMAL(5, 2)) AS Percentage 
+FROM F1_Analysis.dbo.constructors AS Constructors 
+	GROUP BY Nationality 
+	ORDER BY TotalNumber DESC; 
+
+/* This query analyses the distribution of constructors by nationality, highlighting which countries dominate Formula 1.
+The findings show that 43.92% (488 constructors) of all constructors listed in the database are British, more than double the next highest nationality, Italian, 
+whose constructors account for 18.36% (204 constructors), a 139.22% difference relative to the Italian count. This data would suggest that overall, the British 
+dominate constructor positions in Formula 1. 
+
+This dominance could be attributed to the UK's strong motorsport industry, which has historically housed major F1 teams and manufacturers.
+
+To gain deeper insights, I propose narrowing the analysis to modern Formula 1 (year >= 2000). 
+This approach will reveal whether the dominance of British constructors persists in the modern era or if the competitive landscape has shifted.*/
