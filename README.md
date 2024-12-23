@@ -20,6 +20,7 @@ SELECT c.Nationality,
 FROM F1_Analysis.dbo.constructors c
 GROUP BY c.Nationality
 ORDER BY TotalConstructors DESC;
+'''
 
 **Insight**:
 - British constructors are the most represented, followed by Italian and American constructors.
