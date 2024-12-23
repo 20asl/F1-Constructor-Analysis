@@ -26,7 +26,7 @@ ORDER BY TotalConstructors DESC;
 British constructors are the most represented, followed by Italian and American constructors.
 A comparison with historical data highlights the evolution of constructor distribution over time.
 
-### 2. Modern Constructor Distribution (Post-2000)
+## 2. Modern Constructor Distribution (Post-2000)
 Purpose: This query calculates the percentage of constructors by nationality and orders them by total count, focusing on the modern era (post-2000). The results allow for a comparison with historical trends to observe changes in constructor distribution.
 
 ```sql
@@ -43,7 +43,7 @@ ORDER BY TotalConstructors DESC;
 
 The dominance of British and Italian constructors persists in the modern era, but new nationalities have entered the competition, contributing to a more diverse landscape.
 
-### 3. Wins by Constructor Nationality
+## 3. Wins by Constructor Nationality
 Purpose: This query calculates the number of wins by constructors grouped by nationality. It helps assess how effective each nationality is at winning and whether there is a correlation between the number of constructors and their success rates.
 
 ```sql
@@ -60,7 +60,8 @@ ORDER BY TotalWins DESC;
 
 Italians lead in total wins, with Ferrari contributing the vast majority.
 The data suggests that quality, rather than the number of constructors, is a key determinant of success.
-### 4. Breakdown of Italian Constructors’ Wins
+
+## 4. Breakdown of Italian Constructors’ Wins
 Purpose: This query breaks down the Italian constructors, showing how many races each has won. It highlights whether Ferrari’s dominance accounts for most of Italy’s success or if other teams also contribute significantly.
 
 ```sql
@@ -80,15 +81,15 @@ ORDER BY TotalWins DESC;
 Ferrari accounts for 9,000 of Italy’s 9,018 wins, representing 99.8% of the total.
 Toro Rosso and AlphaTauri have contributed marginally, with 14 and 4 wins respectively.
 
-### Visualisations
-## Constructor Distribution by Nationality
+## Visualisations
+## #Constructor Distribution by Nationality
 ![Bar Chart - Constructor distribution by Nationality]("C:\Users\Matt\OneDrive\Pictures\Screenshots\Constructor wins by nationality - Bar Graph.png")
 
-## Wins by Constructor Nationality
+### Wins by Constructor Nationality
 ![Bar Chart: Total Wins by Nationality]()
 
-## Breakdown of Italian Constructors
+### Breakdown of Italian Constructors
 ![Pie Chart - Distribution of Italian Wins by Constructor]()
 
-### Conclusion
+## Conclusion
 The analysis demonstrates that while British constructors are the most represented, Italian constructors dominate in total wins, driven almost entirely by Ferrari. The data also highlights a trend of quality over quantity, as fewer constructors can achieve greater success. In the modern era, while Italian dominance persists, the sport has seen increased competition from a broader range of nationalities.
