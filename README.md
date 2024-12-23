@@ -82,7 +82,7 @@ Ferrari accounts for 9,000 of Italy’s 9,018 wins, representing 99.8% of the to
 Toro Rosso and AlphaTauri have contributed marginally, with 14 and 4 wins respectively.
 
 ## Visualisations
-### #Constructor Distribution by Nationality
+### Constructor Distribution by Nationality
 ![Bar Chart - Constructor distribution by Nationality]("C:\Users\Matt\OneDrive\Pictures\Screenshots\Constructor wins by nationality - Bar Graph.png")
 
 ### Wins by Constructor Nationality
