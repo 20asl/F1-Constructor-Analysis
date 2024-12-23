@@ -53,6 +53,7 @@ FROM F1_Analysis.dbo.results r
 INNER JOIN F1_Analysis.dbo.constructors c ON r.ConstructorName = c.Name
 GROUP BY c.Nationality
 ORDER BY TotalWins DESC;
+'''sql
 
 **Insight**:
 - Italians lead in total wins, with Ferrari contributing the vast majority.
@@ -70,6 +71,7 @@ INNER JOIN F1_Analysis.dbo.constructors c ON r.ConstructorName = c.Name
 WHERE c.Nationality = 'Italian' AND r.Position = 1
 GROUP BY c.Name, c.Nationality
 ORDER BY TotalWins DESC;
+'''sql
 
 **Insight**:
 - Ferrari accounts for 9,000 of Italy’s 9,018 wins, representing 99.8% of the total.
