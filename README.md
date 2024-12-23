@@ -21,6 +21,11 @@ FROM F1_Analysis.dbo.constructors c
 GROUP BY c.Nationality
 ORDER BY TotalConstructors DESC;
 ```
+
+### Insights:
+British constructors are the most represented, followed by Italian and American constructors.
+A comparison with historical data highlights the evolution of constructor distribution over time.
+
 ### 2. Modern Constructor Distribution (Post-2000)
 Purpose: This query calculates the percentage of constructors by nationality and orders them by total count, focusing on the modern era (post-2000). The results allow for a comparison with historical trends to observe changes in constructor distribution.
 
@@ -77,7 +82,7 @@ Toro Rosso and AlphaTauri have contributed marginally, with 14 and 4 wins respec
 
 ### Visualisations
 ## Constructor Distribution by Nationality
-![Bar Chart - Constructor distribution by Nationality]()
+![Bar Chart - Constructor distribution by Nationality]("C:\Users\Matt\OneDrive\Pictures\Screenshots\Constructor wins by nationality - Bar Graph.png")
 
 ## Wins by Constructor Nationality
 ![Bar Chart: Total Wins by Nationality]()
