@@ -83,7 +83,7 @@ Toro Rosso and AlphaTauri have contributed marginally, with 14 and 4 wins respec
 
 ## Visualisations
 ### Constructor Distribution by Nationality
-![Bar Chart - Constructor distribution by Nationality](Constructor wins by nationality - Bar Graph.png)
+![Bar Chart of Wins](https://raw.githubusercontent.com/username/repository/branch/chart.png)
 
 ### Wins by Constructor Nationality
 ![Bar Chart: Total Wins by Nationality]()
